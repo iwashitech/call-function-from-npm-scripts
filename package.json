@@ -1,0 +1,13 @@
+{
+  "name": "how-to-call-function-from-npm-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "foo": "node -e require('./index').foo()",
+    "bar": "node -e require('./index').bar()"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
